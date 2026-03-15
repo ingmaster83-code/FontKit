@@ -1,0 +1,18 @@
+{
+  "name": "FontKit - 무료 상업용 폰트 모음",
+  "short_name": "FontKit",
+  "description": "무료 상업용 한글·영문 폰트 카테고리별 큐레이션",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#7C3AED",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
