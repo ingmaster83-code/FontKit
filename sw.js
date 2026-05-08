@@ -1,4 +1,4 @@
-const CACHE_NAME = 'FontKit-v4';
+const CACHE_NAME = 'FontKit-v5';
 const ASSETS = ['/', '/index.html', '/css/style.css'];
 
 self.addEventListener('install', e => {
