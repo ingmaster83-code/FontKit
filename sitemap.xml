@@ -110,6 +110,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/gmarket-sans.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/gmarket-sans.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/suit.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/suit.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/nanum-barun-gothic.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/nanum-barun-gothic.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/nanum-square-round.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/nanum-square-round.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/ibm-plex-sans-kr.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/ibm-plex-sans-kr.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/fonts/jeju-gothic.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fontkit.wooahouse.com/en/fonts/jeju-gothic.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url>
     <loc>https://fontkit.wooahouse.com/fonts/nanum-myeongjo.html</loc>
     <lastmod>2026-05-29</lastmod>
