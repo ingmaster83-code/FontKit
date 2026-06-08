@@ -99,6 +99,10 @@
     <a href="#en-serif" class="hero-tag">📖 English Serif</a>
     <a href="#display" class="hero-tag">✨ Display</a>
   </div>
+  <div style="margin-top:18px;max-width:440px;margin-left:auto;margin-right:auto;">
+    <input type="search" id="fontSearch" placeholder="🔍 Search fonts..." autocomplete="off"
+      style="width:100%;padding:12px 18px;border-radius:30px;border:none;font-size:.95rem;box-shadow:0 4px 20px rgba(0,0,0,.15);outline:none;box-sizing:border-box;">
+  </div>
   <button id="heroInstallBtn" class="hero-install-btn">📌 Add to Home Screen</button>
 </section>
 
@@ -193,6 +197,13 @@
         <div class="link-desc">By Wanted Lab. IT startup-style Korean variable font</div>
         <span class="link-hint">Learn More →</span>
       </a>
+
+      <a href="fonts/score-dream.html" class="link-card">
+        <span class="link-icon">💎</span>
+        <div class="link-name">S-Core Dream</div>
+        <div class="link-desc">By S-Core. 9 weights from Thin to Heavy. Clean and modern Korean gothic.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
 </div>
   </div>
 
@@ -248,7 +259,14 @@
         <div class="link-desc">By Jeju Province. Korean serif that pairs perfectly with Jeju Gothic</div>
         <span class="link-hint">Learn More →</span>
       </a>
-    </div>
+    
+      <a href="fonts/maru-buri.html" class="link-card">
+        <span class="link-icon">🌸</span>
+        <div class="link-name">Maru Buri</div>
+        <div class="link-desc">Naver's Korean serif font with elegant brush-tip serifs. Great for branding and headlines.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
+</div>
   </div>
 
   <!-- English Sans-Serif -->
@@ -344,6 +362,19 @@
         <div class="link-name">Lexend</div>
         <div class="link-desc">Designed from readability research — helps readers with reading difficulties</div>
         <span class="link-hint">Learn More →</span>
+      </a>
+
+      <a href="fonts/instrument-sans.html" class="link-card">
+        <span class="link-icon">🎼</span>
+        <div class="link-name">Instrument Sans</div>
+        <div class="link-desc">A blend of grotesque tradition and geometric clarity. Great for headlines, UI, and branding.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
+      <a href="fonts/cabinet-grotesk.html" class="link-card">
+        <span class="link-icon">🗄️</span>
+        <div class="link-name">Cabinet Grotesk</div>
+        <div class="link-desc">Free from Fontshare. 8 weights (100–900). A characterful grotesque sans-serif.</div>
+        <span class="link-hint">Learn more →</span>
       </a>
 </div>
   </div>
@@ -497,6 +528,25 @@
         <div class="link-desc">Casual, retro English script. Popular for food &amp; lifestyle branding</div>
         <span class="link-hint">Learn More →</span>
       </a>
+
+      <a href="fonts/nanum-handwriting.html" class="link-card">
+        <span class="link-icon">✍️</span>
+        <div class="link-name">Nanum Handwriting Series</div>
+        <div class="link-desc">Naver's handwriting font series. Pen, brush, wind, and more styles in one collection.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
+      <a href="fonts/cafe24-series.html" class="link-card">
+        <span class="link-icon">☕</span>
+        <div class="link-name">Cafe24 Font Series</div>
+        <div class="link-desc">Cafe24's free Korean font series. Classic, Ssurround, Dongdong, Shyonshyon and more — full of personality.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
+      <a href="fonts/syne.html" class="link-card">
+        <span class="link-icon">🎨</span>
+        <div class="link-name">Syne</div>
+        <div class="link-desc">A bold display typeface with strong personality, ideal for art, culture, and creative branding.</div>
+        <span class="link-hint">Learn more →</span>
+      </a>
 </div>
   </div>
 
@@ -525,5 +575,20 @@
 <script src="../js/pwa-install.js"></script>
 <script src="../js/wooa-sidebar-en.js"></script>
 <script src="../js/wooa-footer-en.js"></script>
+<script>
+document.getElementById('fontSearch').addEventListener('input', function() {
+  var q = this.value.toLowerCase().trim();
+  document.querySelectorAll('.link-card').forEach(function(card) {
+    var text = card.querySelector('.link-name').textContent + ' ' + card.querySelector('.link-desc').textContent;
+    card.style.display = (!q || text.toLowerCase().includes(q)) ? '' : 'none';
+  });
+  document.querySelectorAll('.category-block').forEach(function(block) {
+    var hasVisible = Array.from(block.querySelectorAll('.link-card')).some(function(c) {
+      return c.style.display !== 'none';
+    });
+    block.style.display = hasVisible ? '' : 'none';
+  });
+});
+</script>
 </body>
 </html>

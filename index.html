@@ -96,6 +96,10 @@
     <a href="#en-serif" class="hero-tag">📖 영문 세리프</a>
     <a href="#display" class="hero-tag">✨ 디스플레이</a>
   </div>
+  <div style="margin-top:18px;max-width:440px;margin-left:auto;margin-right:auto;">
+    <input type="search" id="fontSearch" placeholder="🔍 폰트 이름 검색..." autocomplete="off"
+      style="width:100%;padding:12px 18px;border-radius:30px;border:none;font-size:.95rem;box-shadow:0 4px 20px rgba(0,0,0,.15);outline:none;box-sizing:border-box;">
+  </div>
   <button id="heroInstallBtn" class="hero-install-btn">📌 홈 화면에 추가</button>
 </section>
 
@@ -190,6 +194,13 @@
         <div class="link-desc">원티드랩 제작. IT 스타트업 감성의 한글 가변폰트</div>
         <span class="link-hint">자세히 보기 →</span>
       </a>
+
+      <a href="fonts/score-dream.html" class="link-card">
+        <span class="link-icon">💎</span>
+        <div class="link-name">에스코어 드림</div>
+        <div class="link-desc">S-Core 제작. 굵기 1(Thin)~9(Heavy) 9단계 지원. 세련되고 깔끔한 한글 고딕</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
 </div>
   </div>
 
@@ -245,7 +256,14 @@
         <div class="link-desc">제주도청 제작. 제주고딕과 세트로 쓰기 좋은 한글 명조</div>
         <span class="link-hint">자세히 보기 →</span>
       </a>
-    </div>
+    
+      <a href="fonts/maru-buri.html" class="link-card">
+        <span class="link-icon">🌸</span>
+        <div class="link-name">마루 부리</div>
+        <div class="link-desc">네이버가 제작한 한글 세리프 폰트. 획 끝의 부리(삐침)가 특징인 품격 있는 디자인</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
+</div>
   </div>
 
   <!-- 영문 산세리프 -->
@@ -340,6 +358,19 @@
         <span class="link-icon">📖</span>
         <div class="link-name">Lexend</div>
         <div class="link-desc">가독성 연구 기반 설계. 읽기 어려움을 겪는 사용자에게도 도움</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
+
+      <a href="fonts/instrument-sans.html" class="link-card">
+        <span class="link-icon">🎼</span>
+        <div class="link-name">Instrument Sans</div>
+        <div class="link-desc">그로테스크 전통과 기하학적 명확성의 조화. 헤드라인·UI·브랜딩에 두루 적합</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
+      <a href="fonts/cabinet-grotesk.html" class="link-card">
+        <span class="link-icon">🗄️</span>
+        <div class="link-name">Cabinet Grotesk</div>
+        <div class="link-desc">Fontshare 무료 배포. 100~900 8단계 굵기. 개성 있는 그로테스크 산세리프</div>
         <span class="link-hint">자세히 보기 →</span>
       </a>
 </div>
@@ -494,6 +525,25 @@
         <div class="link-desc">캐주얼하고 레트로한 영문 스크립트. 식음료·라이프스타일 브랜딩</div>
         <span class="link-hint">자세히 보기 →</span>
       </a>
+
+      <a href="fonts/nanum-handwriting.html" class="link-card">
+        <span class="link-icon">✍️</span>
+        <div class="link-name">나눔손글씨 시리즈</div>
+        <div class="link-desc">네이버 손글씨 폰트 시리즈. 펜, 붓, 바람, 가람연꽃 등 다양한 손글씨 스타일</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
+      <a href="fonts/cafe24-series.html" class="link-card">
+        <span class="link-icon">☕</span>
+        <div class="link-name">카페24 시리즈</div>
+        <div class="link-desc">카페24 무료 폰트 시리즈. 클래식, 써라운드, 동동, 숑숑 등 개성 넘치는 한글 폰트</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
+      <a href="fonts/syne.html" class="link-card">
+        <span class="link-icon">🎨</span>
+        <div class="link-name">Syne</div>
+        <div class="link-desc">예술·문화 브랜딩에 특화된 개성 강한 디스플레이 폰트. 헤드라인에 독특한 존재감</div>
+        <span class="link-hint">자세히 보기 →</span>
+      </a>
 </div>
   </div>
 
@@ -521,5 +571,20 @@
 <script src="js/pwa-install.js"></script>
 <script src="js/wooa-sidebar.js"></script>
 <script src="js/wooa-footer.js"></script>
+<script>
+document.getElementById('fontSearch').addEventListener('input', function() {
+  var q = this.value.toLowerCase().trim();
+  document.querySelectorAll('.link-card').forEach(function(card) {
+    var text = card.querySelector('.link-name').textContent + ' ' + card.querySelector('.link-desc').textContent;
+    card.style.display = (!q || text.toLowerCase().includes(q)) ? '' : 'none';
+  });
+  document.querySelectorAll('.category-block').forEach(function(block) {
+    var hasVisible = Array.from(block.querySelectorAll('.link-card')).some(function(c) {
+      return c.style.display !== 'none';
+    });
+    block.style.display = hasVisible ? '' : 'none';
+  });
+});
+</script>
 </body>
 </html>
