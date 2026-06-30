@@ -16,6 +16,13 @@
     { s:'jeju-gothic',          ko:'제주고딕',            en:'Jeju Gothic',            i:'🌊', c:'gothic' },
     { s:'wanted-sans',          ko:'Wanted Sans',         en:'Wanted Sans',            i:'💙', c:'gothic' },
     { s:'score-dream',          ko:'에스코어 드림',       en:'S-Core Dream',           i:'💎', c:'gothic' },
+    { s:'baemin-hanna',         ko:'배달의민족 한나체',   en:'Baemin Hanna',           i:'🍔', c:'gothic' },
+    { s:'baemin-dohyeon',       ko:'배달의민족 도현체',   en:'Baemin Dohyeon',         i:'💥', c:'gothic' },
+    { s:'baemin-jua',           ko:'배달의민족 주아체',   en:'Baemin Jua',             i:'🎀', c:'gothic' },
+    { s:'seoul-hangang',        ko:'서울한강체',          en:'Seoul Hangang',          i:'🌉', c:'gothic' },
+    { s:'seoul-namsan',         ko:'서울남산체',          en:'Seoul Namsan',           i:'🏔️', c:'gothic' },
+    { s:'source-han-sans-kr',   ko:'본고딕',              en:'Source Han Sans KR',     i:'🔷', c:'gothic' },
+    { s:'yanolje-jalnan',       ko:'여기어때 잘난체',     en:'Yanolje Jalnan',         i:'✈️', c:'gothic' },
     /* ── 한글 명조/세리프 ── */
     { s:'nanum-myeongjo',            ko:'나눔명조',             en:'Nanum Myeongjo',          i:'📰', c:'serif-ko' },
     { s:'noto-serif-kr',             ko:'Noto Serif KR',        en:'Noto Serif KR',           i:'🌏', c:'serif-ko' },
@@ -25,6 +32,8 @@
     { s:'gowun-batang',              ko:'고운바탕',              en:'Gowun Batang',            i:'🌸', c:'serif-ko' },
     { s:'jeju-myeongjo',             ko:'제주명조',              en:'Jeju Myeongjo',           i:'🌺', c:'serif-ko' },
     { s:'maru-buri',                 ko:'마루 부리',             en:'Maru Buri',               i:'🌸', c:'serif-ko' },
+    { s:'source-han-serif-kr',       ko:'본명조',                en:'Source Han Serif KR',     i:'📜', c:'serif-ko' },
+    { s:'gyeonggi-millennium',       ko:'경기천년체',            en:'Gyeonggi Millennium',     i:'🏛️', c:'serif-ko' },
     /* ── 영문 산세리프 ── */
     { s:'inter',                ko:'Inter',               en:'Inter',                  i:'🖥️', c:'en-sans' },
     { s:'roboto',               ko:'Roboto',              en:'Roboto',                 i:'🤖', c:'en-sans' },
@@ -42,6 +51,11 @@
     { s:'lexend',               ko:'Lexend',              en:'Lexend',                 i:'📖', c:'en-sans' },
     { s:'instrument-sans',      ko:'Instrument Sans',     en:'Instrument Sans',        i:'🎼', c:'en-sans' },
     { s:'cabinet-grotesk',      ko:'Cabinet Grotesk',     en:'Cabinet Grotesk',        i:'🗄️', c:'en-sans' },
+    { s:'lato',                 ko:'Lato',                en:'Lato',                   i:'☀️', c:'en-sans' },
+    { s:'open-sans',            ko:'Open Sans',           en:'Open Sans',              i:'📄', c:'en-sans' },
+    { s:'urbanist',             ko:'Urbanist',            en:'Urbanist',               i:'🏙️', c:'en-sans' },
+    { s:'satoshi',              ko:'Satoshi',             en:'Satoshi',                i:'💎', c:'en-sans' },
+    { s:'general-sans',         ko:'General Sans',        en:'General Sans',           i:'🔤', c:'en-sans' },
     /* ── 영문 세리프 ── */
     { s:'playfair-display',     ko:'Playfair Display',    en:'Playfair Display',       i:'🎭', c:'en-serif' },
     { s:'lora',                 ko:'Lora',                en:'Lora',                   i:'🌿', c:'en-serif' },
@@ -52,6 +66,9 @@
     { s:'cormorant-garamond',   ko:'Cormorant Garamond',  en:'Cormorant Garamond',     i:'👑', c:'en-serif' },
     { s:'source-serif-4',       ko:'Source Serif 4',      en:'Source Serif 4',         i:'📰', c:'en-serif' },
     { s:'fraunces',             ko:'Fraunces',            en:'Fraunces',               i:'🎩', c:'en-serif' },
+    { s:'pt-serif',             ko:'PT Serif',            en:'PT Serif',               i:'📰', c:'en-serif' },
+    { s:'bitter',               ko:'Bitter',              en:'Bitter',                 i:'☕', c:'en-serif' },
+    { s:'young-serif',          ko:'Young Serif',         en:'Young Serif',            i:'🌿', c:'en-serif' },
     /* ── 디스플레이/특수 ── */
     { s:'archivo-black',        ko:'Archivo Black',       en:'Archivo Black',          i:'💪', c:'display' },
     { s:'oswald',               ko:'Oswald',              en:'Oswald',                 i:'🏗️', c:'display' },
@@ -68,6 +85,10 @@
     { s:'nanum-handwriting',    ko:'나눔손글씨 시리즈',   en:'Nanum Handwriting',      i:'✍️', c:'display' },
     { s:'cafe24-series',        ko:'카페24 시리즈',        en:'Cafe24 Series',          i:'☕', c:'display' },
     { s:'syne',                 ko:'Syne',                en:'Syne',                   i:'🎨', c:'display' },
+    { s:'caveat',               ko:'Caveat',              en:'Caveat',                 i:'✍️', c:'display' },
+    { s:'fredoka',              ko:'Fredoka',             en:'Fredoka',                i:'🎈', c:'display' },
+    { s:'cookierun',            ko:'쿠키런 폰트',          en:'CookieRun Font',         i:'🍪', c:'display' },
+    { s:'nanum-gothic-coding',  ko:'나눔고딕코딩',         en:'Nanum Gothic Coding',    i:'💻', c:'display' },
   ];
 
   /* ── 현재 폰트 slug 감지 ── */
