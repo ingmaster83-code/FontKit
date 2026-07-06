@@ -18,6 +18,7 @@
     { host: 'wooasheet.wooahouse.com',    badge: 'WOOASHEET',   color: '#22C55E', icon: '📊', title: '온라인 스프레드시트 도구',         desc: 'CSV·엑셀 파일을 브라우저에서 바로 열고 편집.',                                                        url: 'https://wooasheet.wooahouse.com' },
     { host: 'wooaseo.wooahouse.com',      badge: 'WOOASEO',     color: '#F59E0B', icon: '🔎', title: 'SEO 분석 도구',                    desc: '웹사이트 SEO 점수 분석·키워드 도구·메타 태그 생성.',                                                  url: 'https://wooaseo.wooahouse.com' },
     { host: 'wooagosa.wooahouse.com',     badge: 'WOOAGOSA',    color: '#6366F1', icon: '📝', title: '자격증·면허 무료 모의고사',        desc: '운전면허·자격증 시험을 무료로 준비하세요. 49개 시험, 오답노트 지원.',                                   url: 'https://wooagosa.wooahouse.com' },
+    { host: 'wooaform.wooahouse.com',     badge: 'WOOAFORM',    color: '#2563EB', icon: '📋', title: '무료 양식·서식 모음',               desc: '근로계약서·임대차계약서·이력서 등 공신력 있는 공식 양식 큐레이션.',                                      url: 'https://wooaform.wooahouse.com' },
   ];
 
   // 배경색 밝기 감지 (0~255, 128 미만이면 어두운 배경)
