@@ -1,0 +1,65 @@
+# WooaFont
+> 폰트 변환·미리보기·다운로드를 위한 무료 온라인 도구 모음
+
+WooaFont은 설치나 로그인 없이 브라우저에서 바로 사용하는 무료 온라인 도구 모음입니다. 모든 처리는 사용자 브라우저 내에서 이루어지며 파일을 서버로 전송하지 않습니다.
+
+## Tools
+- [Anton](https://fontkit.wooahouse.com/fonts/anton.html): 강렬하고 강한 느낌의 영문 디스플레이 폰트
+- [Archivo Black](https://fontkit.wooahouse.com/fonts/archivo-black.html): 굵고 강렬한 그로테스크. 포스터·배너 헤드라인에 최적
+- [Bebas Neue](https://fontkit.wooahouse.com/fonts/bebas-neue.html): 굵고 임팩트 있는 영문 올캡스 디스플레이 폰트
+- [Black Han Sans](https://fontkit.wooahouse.com/fonts/black-han-sans.html): 굵고 임팩트 있는 한글 고딕 디스플레이 폰트
+- [Bricolage Grotesque](https://fontkit.wooahouse.com/fonts/bricolage-grotesque.html): 개성 있는 그로테스크 스타일의 영문 디스플레이 폰트
+- [Comfortaa](https://fontkit.wooahouse.com/fonts/comfortaa.html): 편안하고 부드러운 기하학적 라운드 폰트
+- [Cormorant Garamond](https://fontkit.wooahouse.com/fonts/cormorant-garamond.html): 우아하고 고급스러운 영문 세리프 폰트
+- [Crimson Pro](https://fontkit.wooahouse.com/fonts/crimson-pro.html): 북 타이포그래피에 영감을 받은 고전적 세리프
+- [DM Sans](https://fontkit.wooahouse.com/fonts/dm-sans.html): 소형 텍스트에 최적화된 저대비 산세리프
+- [Dancing Script](https://fontkit.wooahouse.com/fonts/dancing-script.html): 생동감 있는 영문 필기체 손글씨 폰트
+- [EB Garamond](https://fontkit.wooahouse.com/fonts/eb-garamond.html): 16세기 Garamond 복원. 학술·출판물에 전통적 품격
+- [Figtree](https://fontkit.wooahouse.com/fonts/figtree.html): 깔끔하고 현대적인 영문 산세리프 폰트
+- [Fraunces](https://fontkit.wooahouse.com/fonts/fraunces.html): 독특한 개성을 가진 영문 디스플레이 세리프 폰트
+- [Geist](https://fontkit.wooahouse.com/fonts/geist.html): Vercel이 만든 개발자 친화적인 영문 산세리프 폰트
+- [IBM Plex Sans KR](https://fontkit.wooahouse.com/fonts/ibm-plex-sans-kr.html): IBM이 만든 한국어 지원 테크 스타일 산세리프 폰트
+- [Inter](https://fontkit.wooahouse.com/fonts/inter.html): UI 디자인 표준 폰트. 화면 가독성에 특화
+- [KoPub 돋움](https://fontkit.wooahouse.com/fonts/kopub-dotum.html): 한국출판인회의 제작. 출판·인쇄에 최적화된 폰트
+- [KoPub 바탕](https://fontkit.wooahouse.com/fonts/kopub-batang.html): 한국출판인회의 제작. 가독성 높은 출판용 명조
+- [Lexend](https://fontkit.wooahouse.com/fonts/lexend.html): 가독성 향상을 목적으로 설계된 영문 산세리프 폰트
+- [Libre Baskerville](https://fontkit.wooahouse.com/fonts/libre-baskerville.html): 클래식 Baskerville을 웹 최적화로 재해석
+- [Lora](https://fontkit.wooahouse.com/fonts/lora.html): 캘리그래피 영향을 받은 현대적 세리프. 본문 가독성 우수
+- [Manrope](https://fontkit.wooahouse.com/fonts/manrope.html): 모던하고 균형 잡힌 영문 산세리프 폰트
+- [Merriweather](https://fontkit.wooahouse.com/fonts/merriweather.html): 화면 장문 읽기에 특화된 세리프 폰트
+- [Montserrat](https://fontkit.wooahouse.com/fonts/montserrat.html): 도시적 감성의 기하학적 산세리프. 브랜딩에 강점
+- [Noto Sans KR](https://fontkit.wooahouse.com/fonts/noto-sans-kr.html): 구글 오픈소스. 웹폰트 표준으로 가장 많이 쓰임
+- [Noto Serif KR](https://fontkit.wooahouse.com/fonts/noto-serif-kr.html): 구글 오픈소스 한글 명조. 장문 읽기에 편안함
+- [Nunito](https://fontkit.wooahouse.com/fonts/nunito.html): 둥글고 친근한 느낌. 어린이·교육·앱 UI에 인기
+- [Oswald](https://fontkit.wooahouse.com/fonts/oswald.html): 좁고 긴 형태의 임팩트 있는 디스플레이 폰트
+- [Outfit](https://fontkit.wooahouse.com/fonts/outfit.html): 기하학적이고 세련된 영문 산세리프 폰트
+- [Pacifico](https://fontkit.wooahouse.com/fonts/pacifico.html): 여유롭고 친근한 느낌의 영문 브러시 스크립트 폰트
+- [Playfair Display](https://fontkit.wooahouse.com/fonts/playfair-display.html): 고급스러운 하이 콘트라스트 세리프. 헤드라인에 최적
+- [Plus Jakarta Sans](https://fontkit.wooahouse.com/fonts/plus-jakarta-sans.html): 현대적이고 친근한 느낌의 UI 전용 폰트
+- [Poppins](https://fontkit.wooahouse.com/fonts/poppins.html): 기하학적 형태의 모던한 영문 폰트. 헤드라인에 인기
+- [Pretendard](https://fontkit.wooahouse.com/fonts/pretendard.html): 모던한 느낌의 한글·영문 고딕. 최근 가장 인기 있는 폰트
+- [Pretendard JP](https://fontkit.wooahouse.com/fonts/pretendard-jp.html): Pretendard의 일본어 지원 버전. 한일 혼용 문서에 적합
+- [Quicksand](https://fontkit.wooahouse.com/fonts/quicksand.html): 가볍고 경쾌한 둥근 형태의 디스플레이 폰트
+- [Raleway](https://fontkit.wooahouse.com/fonts/raleway.html): 우아하고 세련된 느낌의 싱글-라인 산세리프
+- [Roboto](https://fontkit.wooahouse.com/fonts/roboto.html): 구글 Android 기본 폰트. 전 세계에서 가장 많이 쓰임
+- [SUIT](https://fontkit.wooahouse.com/fonts/suit.html): 개발자 커뮤니티가 만든 가독성 높은 한글 산세리프 폰트
+- [Source Serif 4](https://fontkit.wooahouse.com/fonts/source-serif-4.html): Adobe가 만든 가독성 높은 영문 세리프 폰트
+- [Space Grotesk](https://fontkit.wooahouse.com/fonts/space-grotesk.html): 독특한 개성을 가진 테크 스타일 영문 산세리프 폰트
+- [Wanted Sans](https://fontkit.wooahouse.com/fonts/wanted-sans.html): 원티드랩이 만든 현대적이고 가독성 높은 한글 산세리프 폰트
+- [Work Sans](https://fontkit.wooahouse.com/fonts/work-sans.html): 업무용으로 최적화된 읽기 편한 영문 산세리프 폰트
+- [고운바탕](https://fontkit.wooahouse.com/fonts/gowun-batang.html): 구글 폰트에서 제공하는 우아한 한글 명조 무료 폰트
+- [나눔고딕](https://fontkit.wooahouse.com/fonts/nanum-gothic.html): 네이버 대표 무료 한글 고딕. 본문·헤드라인 모두 적합
+- [나눔명조](https://fontkit.wooahouse.com/fonts/nanum-myeongjo.html): 네이버 무료 한글 명조. 전통적인 느낌의 본문 폰트
+- [나눔명조 ExtraBold](https://fontkit.wooahouse.com/fonts/nanum-myeongjo-extrabold.html): 구글 폰트에서 바로 사용 가능한 나눔명조 굵은 버전
+- [나눔바른고딕](https://fontkit.wooahouse.com/fonts/nanum-barun-gothic.html): 네이버 나눔 계열의 깔끔하고 단정한 한글 고딕 폰트
+- [나눔붓글씨체](https://fontkit.wooahouse.com/fonts/nanum-brush-script.html): 붓글씨 느낌의 네이버 나눔 손글씨 폰트
+- [나눔스퀘어](https://fontkit.wooahouse.com/fonts/nanum-square.html): 네이버. 둥근 모서리의 현대적인 한글 고딕
+- [나눔스퀘어라운드](https://fontkit.wooahouse.com/fonts/nanum-square-round.html): 네이버 나눔스퀘어의 모서리를 둥글게 다듬은 친근한 한글 폰트
+- [스포카 한 산스](https://fontkit.wooahouse.com/fonts/spoqa-han-sans.html): 스포카 제작. Source Han Sans 기반 세련된 한글 폰트
+- [제주고딕](https://fontkit.wooahouse.com/fonts/jeju-gothic.html): 제주도청이 배포하는 무료 한글 고딕 폰트
+- [제주명조](https://fontkit.wooahouse.com/fonts/jeju-myeongjo.html): 제주도청이 배포하는 무료 한글 명조 폰트
+- [지마켓 산스](https://fontkit.wooahouse.com/fonts/gmarket-sans.html): G마켓이 배포하는 귀엽고 친근한 한글 폰트
+
+## Site
+- Homepage: https://fontkit.wooahouse.com/
+- Part of the WooaHouse family (wooahouse.com) of free browser-based tools
