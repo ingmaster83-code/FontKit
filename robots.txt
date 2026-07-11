@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://fontkit.wooahouse.com/sitemap.xml
+
+#DaumWebMasterTool:f0f2eed22ead7323d160c2ece87af1d5edc2b48be7589836f6938d76b266a6c4:5OHFs/qHHlfCvAas17iLzw==
