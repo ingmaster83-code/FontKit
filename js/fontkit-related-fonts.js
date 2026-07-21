@@ -23,6 +23,9 @@
     { s:'seoul-namsan',         ko:'서울남산체',          en:'Seoul Namsan',           i:'🏔️', c:'gothic' },
     { s:'source-han-sans-kr',   ko:'본고딕',              en:'Source Han Sans KR',     i:'🔷', c:'gothic' },
     { s:'yanolje-jalnan',       ko:'여기어때 잘난체',     en:'Yanolje Jalnan',         i:'✈️', c:'gothic' },
+    { s:'line-seed-sans',       ko:'라인 시드 산스',      en:'LINE Seed Sans',         i:'💚', c:'gothic' },
+    { s:'nexon-lv1-gothic',     ko:'넥슨 Lv1 고딕',       en:'NEXON Lv1 Gothic',       i:'🎮', c:'gothic' },
+    { s:'gangwon-edu-all',      ko:'강원교육 모두체',     en:'Gangwon Edu All',        i:'🏫', c:'gothic' },
     /* ── 한글 명조/세리프 ── */
     { s:'nanum-myeongjo',            ko:'나눔명조',             en:'Nanum Myeongjo',          i:'📰', c:'serif-ko' },
     { s:'noto-serif-kr',             ko:'Noto Serif KR',        en:'Noto Serif KR',           i:'🌏', c:'serif-ko' },
@@ -34,6 +37,7 @@
     { s:'maru-buri',                 ko:'마루 부리',             en:'Maru Buri',               i:'🌸', c:'serif-ko' },
     { s:'source-han-serif-kr',       ko:'본명조',                en:'Source Han Serif KR',     i:'📜', c:'serif-ko' },
     { s:'gyeonggi-millennium',       ko:'경기천년체',            en:'Gyeonggi Millennium',     i:'🏛️', c:'serif-ko' },
+    { s:'arita-buri',                ko:'아리따 부리',           en:'Arita Buri',              i:'🌸', c:'serif-ko' },
     /* ── 영문 산세리프 ── */
     { s:'inter',                ko:'Inter',               en:'Inter',                  i:'🖥️', c:'en-sans' },
     { s:'roboto',               ko:'Roboto',              en:'Roboto',                 i:'🤖', c:'en-sans' },
@@ -56,6 +60,14 @@
     { s:'urbanist',             ko:'Urbanist',            en:'Urbanist',               i:'🏙️', c:'en-sans' },
     { s:'satoshi',              ko:'Satoshi',             en:'Satoshi',                i:'💎', c:'en-sans' },
     { s:'general-sans',         ko:'General Sans',        en:'General Sans',           i:'🔤', c:'en-sans' },
+    { s:'rubik',                ko:'Rubik',               en:'Rubik',                  i:'🔵', c:'en-sans' },
+    { s:'mulish',               ko:'Mulish',              en:'Mulish',                 i:'📊', c:'en-sans' },
+    { s:'josefin-sans',         ko:'Josefin Sans',        en:'Josefin Sans',           i:'👗', c:'en-sans' },
+    { s:'barlow',               ko:'Barlow',              en:'Barlow',                 i:'🛣️', c:'en-sans' },
+    { s:'karla',                ko:'Karla',               en:'Karla',                  i:'📰', c:'en-sans' },
+    { s:'jost',                 ko:'Jost',                en:'Jost',                   i:'🔺', c:'en-sans' },
+    { s:'albert-sans',          ko:'Albert Sans',         en:'Albert Sans',            i:'🇸🇪', c:'en-sans' },
+    { s:'cabin',                ko:'Cabin',               en:'Cabin',                  i:'🏕️', c:'en-sans' },
     /* ── 영문 세리프 ── */
     { s:'playfair-display',     ko:'Playfair Display',    en:'Playfair Display',       i:'🎭', c:'en-serif' },
     { s:'lora',                 ko:'Lora',                en:'Lora',                   i:'🌿', c:'en-serif' },
@@ -69,6 +81,9 @@
     { s:'pt-serif',             ko:'PT Serif',            en:'PT Serif',               i:'📰', c:'en-serif' },
     { s:'bitter',               ko:'Bitter',              en:'Bitter',                 i:'☕', c:'en-serif' },
     { s:'young-serif',          ko:'Young Serif',         en:'Young Serif',            i:'🌿', c:'en-serif' },
+    { s:'spectral',             ko:'Spectral',            en:'Spectral',               i:'📖', c:'en-serif' },
+    { s:'zilla-slab',           ko:'Zilla Slab',          en:'Zilla Slab',             i:'🦊', c:'en-serif' },
+    { s:'vollkorn',             ko:'Vollkorn',            en:'Vollkorn',               i:'📚', c:'en-serif' },
     /* ── 디스플레이/특수 ── */
     { s:'archivo-black',        ko:'Archivo Black',       en:'Archivo Black',          i:'💪', c:'display' },
     { s:'oswald',               ko:'Oswald',              en:'Oswald',                 i:'🏗️', c:'display' },
@@ -89,6 +104,12 @@
     { s:'fredoka',              ko:'Fredoka',             en:'Fredoka',                i:'🎈', c:'display' },
     { s:'cookierun',            ko:'쿠키런 폰트',          en:'CookieRun Font',         i:'🍪', c:'display' },
     { s:'nanum-gothic-coding',  ko:'나눔고딕코딩',         en:'Nanum Gothic Coding',    i:'💻', c:'display' },
+    { s:'baemin-euljiro',       ko:'배민 을지로체',        en:'Baemin Euljiro',         i:'🏮', c:'display' },
+    { s:'baemin-yeonsung',      ko:'배민 연성체',          en:'Baemin Yeonsung',        i:'💌', c:'display' },
+    { s:'righteous',            ko:'Righteous',           en:'Righteous',              i:'🕹️', c:'display' },
+    { s:'lilita-one',           ko:'Lilita One',          en:'Lilita One',             i:'🎯', c:'display' },
+    { s:'great-vibes',          ko:'Great Vibes',         en:'Great Vibes',            i:'💍', c:'display' },
+    { s:'sacramento',           ko:'Sacramento',          en:'Sacramento',             i:'💐', c:'display' },
   ];
 
   /* ── 현재 폰트 slug 감지 ── */
