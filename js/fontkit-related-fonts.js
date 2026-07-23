@@ -26,6 +26,10 @@
     { s:'line-seed-sans',       ko:'라인 시드 산스',      en:'LINE Seed Sans',         i:'💚', c:'gothic' },
     { s:'nexon-lv1-gothic',     ko:'넥슨 Lv1 고딕',       en:'NEXON Lv1 Gothic',       i:'🎮', c:'gothic' },
     { s:'gangwon-edu-all',      ko:'강원교육 모두체',     en:'Gangwon Edu All',        i:'🏫', c:'gothic' },
+    { s:'kakao-keun-geulssi',   ko:'카카오 큰글씨체',     en:'Kakao Keun-geulssi',     i:'💬', c:'gothic' },
+    { s:'kakao-jageun-geulssi', ko:'카카오 작은글씨체',   en:'Kakao Jageun-geulssi',   i:'💭', c:'gothic' },
+    { s:'mapo-geumbitnaru',     ko:'마포금빛나루체',      en:'Mapo Geumbitnaru',       i:'🏙️', c:'gothic' },
+    { s:'mapo-dacapo',          ko:'마포다카포체',        en:'Mapo Dacapo',            i:'🎵', c:'gothic' },
     /* ── 한글 명조/세리프 ── */
     { s:'nanum-myeongjo',            ko:'나눔명조',             en:'Nanum Myeongjo',          i:'📰', c:'serif-ko' },
     { s:'noto-serif-kr',             ko:'Noto Serif KR',        en:'Noto Serif KR',           i:'🌏', c:'serif-ko' },
@@ -38,6 +42,8 @@
     { s:'source-han-serif-kr',       ko:'본명조',                en:'Source Han Serif KR',     i:'📜', c:'serif-ko' },
     { s:'gyeonggi-millennium',       ko:'경기천년체',            en:'Gyeonggi Millennium',     i:'🏛️', c:'serif-ko' },
     { s:'arita-buri',                ko:'아리따 부리',           en:'Arita Buri',              i:'🌸', c:'serif-ko' },
+    { s:'soonbatang',                ko:'순바탕',                en:'Soonbatang',              i:'📖', c:'serif-ko' },
+    { s:'hakgyoansim-barunbatang',   ko:'학교안심 바른바탕체',   en:'Hakgyoansim Barunbatang', i:'🏫', c:'serif-ko' },
     /* ── 영문 산세리프 ── */
     { s:'inter',                ko:'Inter',               en:'Inter',                  i:'🖥️', c:'en-sans' },
     { s:'roboto',               ko:'Roboto',              en:'Roboto',                 i:'🤖', c:'en-sans' },
@@ -68,6 +74,11 @@
     { s:'jost',                 ko:'Jost',                en:'Jost',                   i:'🔺', c:'en-sans' },
     { s:'albert-sans',          ko:'Albert Sans',         en:'Albert Sans',            i:'🇸🇪', c:'en-sans' },
     { s:'cabin',                ko:'Cabin',               en:'Cabin',                  i:'🏕️', c:'en-sans' },
+    { s:'source-sans-3',        ko:'Source Sans 3',       en:'Source Sans 3',          i:'🖋️', c:'en-sans' },
+    { s:'pt-sans',              ko:'PT Sans',             en:'PT Sans',                i:'📐', c:'en-sans' },
+    { s:'nunito-sans',          ko:'Nunito Sans',         en:'Nunito Sans',            i:'🔤', c:'en-sans' },
+    { s:'noto-sans',            ko:'Noto Sans',           en:'Noto Sans',              i:'🌐', c:'en-sans' },
+    { s:'merriweather-sans',    ko:'Merriweather Sans',   en:'Merriweather Sans',      i:'📰', c:'en-sans' },
     /* ── 영문 세리프 ── */
     { s:'playfair-display',     ko:'Playfair Display',    en:'Playfair Display',       i:'🎭', c:'en-serif' },
     { s:'lora',                 ko:'Lora',                en:'Lora',                   i:'🌿', c:'en-serif' },
@@ -84,6 +95,7 @@
     { s:'spectral',             ko:'Spectral',            en:'Spectral',               i:'📖', c:'en-serif' },
     { s:'zilla-slab',           ko:'Zilla Slab',          en:'Zilla Slab',             i:'🦊', c:'en-serif' },
     { s:'vollkorn',             ko:'Vollkorn',            en:'Vollkorn',               i:'📚', c:'en-serif' },
+    { s:'noto-serif',           ko:'Noto Serif',          en:'Noto Serif',             i:'📚', c:'en-serif' },
     /* ── 디스플레이/특수 ── */
     { s:'archivo-black',        ko:'Archivo Black',       en:'Archivo Black',          i:'💪', c:'display' },
     { s:'oswald',               ko:'Oswald',              en:'Oswald',                 i:'🏗️', c:'display' },
@@ -110,6 +122,8 @@
     { s:'lilita-one',           ko:'Lilita One',          en:'Lilita One',             i:'🎯', c:'display' },
     { s:'great-vibes',          ko:'Great Vibes',         en:'Great Vibes',            i:'💍', c:'display' },
     { s:'sacramento',           ko:'Sacramento',          en:'Sacramento',             i:'💐', c:'display' },
+    { s:'ongeulip-bakdahyeon',  ko:'온글잎 박다현체',      en:'Ongeulip Bakdahyeon',    i:'✍️', c:'display' },
+    { s:'ongeulip-uiyeon',      ko:'온글잎 의연체',        en:'Ongeulip Uiyeon',        i:'✍️', c:'display' },
   ];
 
   /* ── 현재 폰트 slug 감지 ── */
